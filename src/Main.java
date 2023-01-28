@@ -10,8 +10,8 @@ public class Main {
   public static List<String> workforce = new ArrayList<>();
 
   public static void main(String[] args) {
-    FilterMain.main();
-    StreamMain.main();
+    FilterMain.main(intList);
+    StreamMain.main(intList);
 
     CensusExecution censusExecution = new CensusExecution();
     underagePeopleNumber = censusExecution.getUnderagePeopleNumber();

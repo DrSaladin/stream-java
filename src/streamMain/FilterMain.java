@@ -1,12 +1,10 @@
 package streamMain;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 public class FilterMain {
-  public static List<Integer> intList = Arrays.asList(1, 2, 5, 16, -1, -2, 0, 32, 3, 5, 8, 23, 4);
-  public static void main() {
+  public static void main(List<Integer> intList) {
     List<Integer> processedList = new ArrayList<>();
 
     for(int item : intList) {
